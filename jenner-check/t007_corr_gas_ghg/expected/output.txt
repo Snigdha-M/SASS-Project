@@ -1,0 +1,15 @@
+                    The CORR Procedure
+          2 Variables:    Natural_Gas_Use__kBtu_   Total_GHG_Emissions__Metric_Tons
+                    Simple Statistics
+Variable         N      Mean   Std Dev       Sum   Minimum   Maximum
+--------  --------  --------  --------  --------  --------  --------
+Natural_Gas_Use__kBtu_                  27  1624814.81481  950365.80152  43870000.00000  540000.00000  3350000.00000
+Total_GHG_Emissions__Metric_Tons        27      568.25926     458.49290     15343.00000     180.00000     1520.00000
+   Pearson Correlation Coefficients, N = 27
+          Prob > |r| under H0: Rho=0
+            Natural_Gas_Use__kBtu_  Total_GHG_Emissions__Metric_Tons
+--------  --------  --------
+Natural_Gas_Use__kBtu_   1.00000   0.94456
+              .       <.0001
+Total_GHG_Emissions__Metric_Tons   0.94456   1.00000
+            <.0001      .

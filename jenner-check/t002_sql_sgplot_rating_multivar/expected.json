@@ -1,0 +1,20 @@
+{
+  "_captured_at": "2026-08-20T12:19:23Z",
+  "_captured_run_id": "r_6367ef4ec45744f68670cbb1eb729e8e",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: PROC SQL",
+    "NOTE: Table energy_by_rating created.",
+    "NOTE: PROC SQL statement used.",
+    "NOTE: PROC SGPLOT data=energy_by_rating"
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

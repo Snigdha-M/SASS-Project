@@ -1,0 +1,25 @@
+                             Regression Analysis of Gross Floor area  vs Electricity Usage
+
+                                                   The REG Procedure                                                    
+                                                     Model: MODEL1                                                      
+                                  Dependent Variable: Gross_Floor_Area___Buildings__sq                                  
+
+Source                 DF      Sum of Squares         Mean Square   F Value    Pr > F
+---------------  --------  ------------------  ------------------  --------  --------
+Model                   1  135722607600.44901  135722607600.44901    112.20    <.0001
+Error                  25   30240133140.29172    1209605325.61167                    
+Corrected Total        26  165962740740.74072                                        
+
+Root MSE       34779.38075    R-Square            0.8178
+Dependent Mean  193481.48148    Adj R-Sq            0.8105
+Coeff Var         17.97556
+
+                               Parameter Estimates                                
+
+Variable                      DF      Estimate  Standard Error   t Value  Pr > |t|
+----------------------  --------  ------------  --------------  --------  --------
+Intercept                      1  109310.56420     10389.50442     10.52    <.0001
+Electricity_Use__kBtu_         1       0.05367         0.00507     10.59    <.0001
+
+                             Regression Analysis of Gross Floor area  vs Electricity Usage
+

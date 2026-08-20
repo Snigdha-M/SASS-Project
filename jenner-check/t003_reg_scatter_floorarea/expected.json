@@ -1,0 +1,20 @@
+{
+  "_captured_at": "2026-08-20T12:19:23Z",
+  "_captured_run_id": "r_026b4495707c4e4c8677c603d42942e2",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: PROC REG data=mydata.energy_data",
+    "NOTE: PROC REG: processed 1 job(s) in batch",
+    "NOTE: ODS plot written: reg_residuals_vs_predicted.spec.json",
+    "NOTE: ODS plot written: reg_residual_histogram_panel.spec.json"
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

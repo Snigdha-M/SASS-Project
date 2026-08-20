@@ -1,0 +1,20 @@
+{
+  "_captured_at": "2026-08-20T12:19:23Z",
+  "_captured_run_id": "r_236797ca84e844bb9b0a73113a5371c5",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: PROC PRINT data=mydata.energy_data",
+    "NOTE: PROC PRINT completed: 10 observations printed, 13 variables",
+    "NOTE: PROC SQL",
+    "NOTE: Table ng_buildingwise_energy_table created."
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

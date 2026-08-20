@@ -1,0 +1,12 @@
+NOTE: Option OBS changed to 100.
+NOTE: Library MYDATA assigned path=/tmp/work/r_108220d2398545cfb6523fd9e50125cb/work/18960280-b1cf-4f5f-85e3-51c10f85db15.
+NOTE: DATA mydata.energy_data
+
+NOTE: Processing inline DATALINES (27 lines)
+
+NOTE: Read 27 rows from DATALINES.
+NOTE: Wrote mydata.energy_data (27 rows, 13 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC UNIVARIATE

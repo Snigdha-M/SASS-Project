@@ -1,0 +1,20 @@
+{
+  "_captured_at": "2026-08-20T12:19:23Z",
+  "_captured_run_id": "r_b0fe0817dcee438ab60f081e2bb61c26",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: PROC SQL",
+    "NOTE: Table energy_data_age_groups created.",
+    "NOTE: PROC SQL statement used.",
+    "NOTE: PROC PRINT data=energy_data_age_groups"
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

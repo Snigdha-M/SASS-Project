@@ -1,0 +1,7 @@
+{
+  "bundle": "t001_sql_sgplot_ng_by_proptype",
+  "source_file": "SASS Project.sas",
+  "source_blob_sha": "1f82a40207e7206f158542e7f7a56b2d8f7b1eae",
+  "source_commit": "e9c48d09e24ea625da196949394a0826d594824c",
+  "notes": "Block 1 of the original script (Top Natural Gas Consumption by Property Type, Submitted Data only): PROC SQL aggregation + PROC SGPLOT vbar, unmodified. PROC IMPORT of the hardcoded lab CSV path was replaced with an inline DATALINES sample (27 rows) matching the original column names/types."
+}

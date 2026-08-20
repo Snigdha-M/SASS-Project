@@ -1,0 +1,78 @@
+                              Data with Building Age Groups and Calculated Energy Metrics
+
+  Obs  Year_Built  Building_Age      Age_Group  Site_EUI  Source_EUI
+    1        1978            48  Over 40 years      58.2       102.4
+    2        1985            41  Over 40 years      63.1       110.8
+    3        1995            31  31-40 years        71.4       120.5
+    4        1965            61  Over 40 years      49.8        88.3
+    5        1972            54  Over 40 years     140.2       255.6
+    6        1990            36  31-40 years        52.6        95.1
+    7        1980            46  Over 40 years      60.5       105.9
+    8        2001            25  21-30 years        68.9       115.2
+    9        1968            58  Over 40 years      48.1        86.7
+   10        1971            55  Over 40 years     145.7       262.3
+   11        1975            51  Over 40 years      60.4       106.2
+   12        1988            38  31-40 years          62       109.4
+   13        1998            28  21-30 years        70.1       118.6
+   14        1966            60  Over 40 years        49        87.5
+   15        1973            53  Over 40 years     142.8       258.1
+   16        1982            44  Over 40 years      57.1       100.6
+   17        1983            43  Over 40 years      61.4         108
+   18        1999            27  21-30 years        69.5       116.9
+   19        1967            59  Over 40 years      48.6          87
+   20        1970            56  Over 40 years     143.9         260
+
+... 7 more observations (showing 20 of 27)
+
+                              Data with Building Age Groups and Calculated Energy Metrics
+
+                              Data with Building Age Groups and Calculated Energy Metrics
+
+                                                   The FREQ Procedure
+
+Table of Rating by Age_Group
+
+Frequency
+Percent
+Row Pct
+Col Pct
+
+Rating |  21-30 years |  31-40 years |Over 40 years |         Total
+-------+--------------+--------------+--------------+--------------
+1      |            0 |            0 |            2 |             2
+       |         0.00 |         0.00 |         7.41 |          7.41
+       |         0.00 |         0.00 |       100.00 |              
+       |         0.00 |         0.00 |        10.53 |              
+-------+--------------+--------------+--------------+--------------
+2      |            1 |            1 |            4 |             6
+       |         3.70 |         3.70 |        14.81 |         22.22
+       |        16.67 |        16.67 |        66.67 |              
+       |        25.00 |        25.00 |        21.05 |              
+-------+--------------+--------------+--------------+--------------
+3      |            3 |            1 |            7 |            11
+       |        11.11 |         3.70 |        25.93 |         40.74
+       |        27.27 |         9.09 |        63.64 |              
+       |        75.00 |        25.00 |        36.84 |              
+-------+--------------+--------------+--------------+--------------
+4      |            0 |            2 |            6 |             8
+       |         0.00 |         7.41 |        22.22 |         29.63
+       |         0.00 |        25.00 |        75.00 |              
+       |         0.00 |        50.00 |        31.58 |              
+-------+--------------+--------------+--------------+--------------
+Total  |            4 |            4 |           19 |            27
+       |        14.81 |        14.81 |        70.37 |        100.00
+
+Statistics for Table of Rating by Age_Group
+
+Statistic                                DF  Value         Prob
+--------------------------------------------------------------
+Chi-Square                                6 4.1178       0.6607
+Likelihood Ratio Chi-Square               6 5.5784       0.4720
+Mantel-Haenszel Chi-Square                1 0.0010       0.9748
+
+Phi Coefficient                      0.3905
+Contingency Coefficient              0.3638
+Cramer's V                           0.2761
+
+WARNING: 83% of the cells have expected counts less than 5. Chi-Square may not be a valid test.
+

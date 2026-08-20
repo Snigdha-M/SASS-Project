@@ -1,0 +1,15 @@
+NOTE: Option OBS changed to 100.
+NOTE: Library MYDATA assigned path=/tmp/work/r_1fdbd26cb7974d988bb22fc27373d0dd/work/a6054c07-ac0c-4346-a8d5-c5540554f8b8.
+NOTE: DATA mydata.energy_data
+
+NOTE: Processing inline DATALINES (27 lines)
+
+NOTE: Read 27 rows from DATALINES.
+NOTE: Wrote mydata.energy_data (27 rows, 13 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC TTEST data=mydata.energy_data
+
+NOTE: PROC TTEST ODS Graphics generated.
+NOTE: PROC TTEST statement used.
