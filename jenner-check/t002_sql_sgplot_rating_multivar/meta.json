@@ -1,0 +1,7 @@
+{
+  "bundle": "t002_sql_sgplot_rating_multivar",
+  "source_file": "SASS Project.sas",
+  "source_blob_sha": "1f82a40207e7206f158542e7f7a56b2d8f7b1eae",
+  "source_commit": "e9c48d09e24ea625da196949394a0826d594824c",
+  "notes": "Block 2 of the original script (buildings by Chicago Energy Rating vs electricity/gas usage and ENERGY STAR score): PROC SQL multi-metric aggregation + three PROC SGPLOT vbar charts, unmodified. Data source swapped for the same inline sample as the other bundles."
+}

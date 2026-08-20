@@ -1,0 +1,7 @@
+{
+  "bundle": "t005_ttest_energy_score",
+  "source_file": "SASS Project.sas",
+  "source_blob_sha": "1f82a40207e7206f158542e7f7a56b2d8f7b1eae",
+  "source_commit": "e9c48d09e24ea625da196949394a0826d594824c",
+  "notes": "Block 7 of the original script (one-sample t-test of ENERGY_STAR_Score against h0=59): PROC TTEST, unmodified. Data source swapped for the same inline sample as the other bundles."
+}

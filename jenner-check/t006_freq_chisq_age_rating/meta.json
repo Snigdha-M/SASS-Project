@@ -1,0 +1,7 @@
+{
+  "bundle": "t006_freq_chisq_age_rating",
+  "source_file": "SASS Project.sas",
+  "source_blob_sha": "1f82a40207e7206f158542e7f7a56b2d8f7b1eae",
+  "source_commit": "e9c48d09e24ea625da196949394a0826d594824c",
+  "notes": "Blocks 8+9 of the original script (building-age bucketing, clustered Site/Source EUI chart, and chi-square association between age group and energy rating): PROC SQL case/when bucketing + DATA step reshape + PROC SGPLOT clustered vbar + PROC FREQ chisq, unmodified except YEAR(TODAY()) replaced with a fixed reference year macro variable so the age buckets (and therefore the chi-square table) are reproducible on every run."
+}

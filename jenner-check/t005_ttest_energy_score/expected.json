@@ -1,0 +1,19 @@
+{
+  "_captured_at": "2026-08-20T12:19:23Z",
+  "_captured_run_id": "r_1fdbd26cb7974d988bb22fc27373d0dd",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: PROC TTEST data=mydata.energy_data",
+    "NOTE: PROC TTEST ODS Graphics generated.",
+    "NOTE: PROC TTEST statement used."
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

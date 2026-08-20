@@ -1,0 +1,7 @@
+{
+  "bundle": "t004_univariate_ghg",
+  "source_file": "SASS Project.sas",
+  "source_blob_sha": "1f82a40207e7206f158542e7f7a56b2d8f7b1eae",
+  "source_commit": "e9c48d09e24ea625da196949394a0826d594824c",
+  "notes": "Block 5 of the original script (distribution of Total_GHG_Emissions__Metric_Tons): PROC UNIVARIATE with histogram + qqplot against a normal reference, unmodified. Data source swapped for the same inline sample as the other bundles."
+}

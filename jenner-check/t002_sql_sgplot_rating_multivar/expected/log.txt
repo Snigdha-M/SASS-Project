@@ -1,0 +1,24 @@
+NOTE: Option OBS changed to 100.
+NOTE: Library MYDATA assigned path=/tmp/work/r_6367ef4ec45744f68670cbb1eb729e8e/work/da8d9c6b-8ae0-4ec6-8fa6-29f0957db71d.
+NOTE: DATA mydata.energy_data
+
+NOTE: Processing inline DATALINES (27 lines)
+
+NOTE: Read 27 rows from DATALINES.
+NOTE: Wrote mydata.energy_data (27 rows, 13 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC SQL 
+
+NOTE: Table energy_by_rating created.
+NOTE: PROC SQL statement used.
+NOTE: PROC SGPLOT data=energy_by_rating
+
+NOTE: PROC SGPLOT output written to: ./ods_output/sgplot.svg
+NOTE: PROC SGPLOT data=energy_by_rating
+
+NOTE: PROC SGPLOT output written to: ./ods_output/sgplot1.svg
+NOTE: PROC SGPLOT data=energy_by_rating
+
+NOTE: PROC SGPLOT output written to: ./ods_output/sgplot2.svg

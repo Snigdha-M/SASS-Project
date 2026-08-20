@@ -1,0 +1,58 @@
+                                Univariate Analysis of Total_GHG_Emissions__Metric_Tons
+
+                                                The UNIVARIATE Procedure
+                                      Variable:  Total_GHG_Emissions__Metric_Tons
+
+                                                        Moments
+
+N                                 27    Sum Weights                       27
+Mean                      568.259259    Sum Observations        15343.000000
+Std Deviation             458.492898    Variance               210215.737892
+Skewness                    1.485384    Kurtosis                    0.641082
+Uncorrected SS        14184411.000000    Corrected SS          5465609.185185
+Coeff Variation            80.683753    Std Error Mean             88.236999
+
+            Basic Statistical Measures            
+
+Location              Variability                 
+--------  ----------  -------------  -------------
+Mean      568.259259  Std Deviation     458.492898
+Median    405.000000  Variance       210215.737892
+Mode               .  Range            1340.000000
+
+Quantiles (Definition 5)
+
+Quantile       Estimate
+----------  -----------
+0% Min       180.000000
+1%           180.000000
+5%           182.000000
+10%          184.000000
+25% Q1       305.000000
+50% Median   405.000000
+75% Q3       525.000000
+90%         1480.000000
+95%         1500.000000
+99%         1520.000000
+100% Max    1520.000000
+
+           Extreme Observations            
+
+       Lowest                Highest
+     Value       Obs        Value       Obs
+----------  --------  -----------  --------
+180.000000         3  1450.000000         5
+182.000000        13  1470.000000        25
+184.000000        23  1480.000000        15
+188.000000        18  1500.000000        20
+195.000000         8  1520.000000        10
+
+
+                                               Tests for Location: Mu0=0
+ 
+                                    Test           -Statistic-    -----p Value------
+
+                                    Student's t    t  6.440147    Pr > |t|    <.0001
+                                    Sign           M      13.5    Pr >= |M|   <.0001
+                                    Signed Rank    S       189    Pr >= |S|   <.0001
+
